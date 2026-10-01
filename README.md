@@ -2,6 +2,9 @@
 
 A responsive personal portfolio website introducing Princely Makhwara, highlighting his interests, skills, education, and experience, and providing ways to get in touch.
 
+## Preview
+https://princely24m.github.io/Personal-Webpage/
+
 ## Features
 
 - Profile section with portrait and availability status
