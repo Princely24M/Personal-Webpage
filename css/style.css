@@ -1,12 +1,5 @@
-/* ==========================================================================
-   PRINCELY MAKHWARA — PERSONAL PORTFOLIO STYLESHEET
-   A modern, clean, recruiter-friendly stylesheet built with pure CSS3.
-   Features: CSS Custom Properties, CSS Grid, Flexbox, & Responsive Design.
-   ========================================================================== */
 
-/* --------------------------------------------------------------------------
-   1. CSS Custom Properties (Design Tokens / Theme Variables)
-   -------------------------------------------------------------------------- */
+/* CSS Custom Properties */
 :root {
     /* Color Palette */
     --bg-base: #090d16;
@@ -54,9 +47,7 @@
     --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* --------------------------------------------------------------------------
-   2. Reset & Global Base Styles
-   -------------------------------------------------------------------------- */
+/* Reset & Global Base Styles  */
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -108,9 +99,7 @@ body {
     border-width: 0;
 }
 
-/* --------------------------------------------------------------------------
-   3. Header & Navigation Bar
-   -------------------------------------------------------------------------- */
+/* Header & Navigation Bar */
 header {
     position: sticky;
     top: 0;
@@ -218,9 +207,7 @@ nav ul li a.nav-contact-link:hover {
     box-shadow: 0 0 16px var(--primary-glow);
 }
 
-/* --------------------------------------------------------------------------
-   4. Main Layout & Section Panels
-   -------------------------------------------------------------------------- */
+/* Main Layout & Section Panels */
 main {
     max-width: 1120px;
     margin: 0 auto;
@@ -248,9 +235,7 @@ main {
     border-color: rgba(255, 255, 255, 0.12);
 }
 
-/* --------------------------------------------------------------------------
-   5. Section Headings (Eyebrow + H2)
-   -------------------------------------------------------------------------- */
+/* Section Headings (Eyebrow + H2) */
 .section-heading {
     margin-bottom: 1.75rem;
     position: relative;
@@ -286,9 +271,7 @@ h2 {
     line-height: 1.2;
 }
 
-/* --------------------------------------------------------------------------
-   6. Hero / About Me Section (#intro)
-   -------------------------------------------------------------------------- */
+/*  Hero / About Me Section (#intro) */
 .hero-panel {
     background: linear-gradient(135deg, rgba(19, 29, 51, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
     border: 1px solid rgba(99, 102, 241, 0.2);
@@ -388,9 +371,7 @@ h2 {
     border-radius: 4px;
 }
 
-/* --------------------------------------------------------------------------
-   7. Interests Section (#interests)
-   -------------------------------------------------------------------------- */
+/* Interests Section (#interests) */
 .interests-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -442,9 +423,7 @@ h2 {
     color: var(--text-primary);
 }
 
-/* --------------------------------------------------------------------------
-   8. Skills Section (#skills)
-   -------------------------------------------------------------------------- */
+/* Skills Section (#skills) */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -522,9 +501,7 @@ h2 {
     transform: translateY(-2px);
 }
 
-/* --------------------------------------------------------------------------
-   9. Education & Experience Vertical Timeline (#edu & #exp)
-   -------------------------------------------------------------------------- */
+/* Education & Experience Vertical Timeline (#edu & #exp) */
 .timeline-container {
     position: relative;
     padding-left: 2.25rem;
@@ -671,9 +648,7 @@ h2 {
     line-height: 1.4;
 }
 
-/* --------------------------------------------------------------------------
-   10. Contact Section (#contact)
-   -------------------------------------------------------------------------- */
+/* Contact Section (#contact) */
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -742,9 +717,7 @@ h2 {
     text-decoration: underline;
 }
 
-/* --------------------------------------------------------------------------
-   11. Footer
-   -------------------------------------------------------------------------- */
+/* Footer */
 footer {
     border-top: 1px solid var(--border-subtle);
     background: #060910;
@@ -800,9 +773,7 @@ footer p {
     color: var(--text-muted);
 }
 
-/* --------------------------------------------------------------------------
-   12. Responsive Design & Media Queries
-   -------------------------------------------------------------------------- */
+/* Responsive Design & Media Queries */
 @media (max-width: 868px) {
     .hero-layout {
         flex-direction: column;
